@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "609376991322",
+    "project_id": "gunsandbuns",
+    "storage_bucket": "gunsandbuns.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:609376991322:android:5cdaa8d90de58a035e4063",
+        "android_client_info": {
+          "package_name": "com.GunsAndBuns.exerciseApp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA94cpDF7jTVM67-qhaPfjFyeqZKaL7LBQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
