@@ -1,10 +1,9 @@
-import { View, Text } from 'react-native';
+import SearchExerciseList from '@/components/exerciseSearchList';
+import { SearchContext } from '@/context/SearchContext';
+import { useContext } from 'react';
 
-const HomePage = () => {
-    return (
-        <View>
-            <Text>Home Page</Text>
-        </View>
-    );
-};
-export default HomePage
+
+export default function HomePage() {
+    const { results } = useContext(SearchContext);
+    return <SearchExerciseList results={results} />;
+}

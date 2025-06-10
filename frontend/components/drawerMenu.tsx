@@ -8,6 +8,7 @@ import { SafeAreaView, StyleSheet } from 'react-native';
 export default function DrawerMenu(props: any) {
     const router = useRouter();
 
+    // if user signs out go to main screen 
     const signOut = async () => {
         try {
           await auth().signOut();

@@ -8,30 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
-		1F905EFEDB214840BAD73A40 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4641AD4314C143EE822F8C3E /* GoogleService-Info.plist */; };
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
-		4BB7FE5A42E819B02E696DAB /* Pods_GunsAndBuns.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA39E786B8F645E22813DDDC /* Pods_GunsAndBuns.framework */; };
-		4FB11610D65C7FADFEC00030 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = FFAF269185B9CB2E90D96FB9 /* PrivacyInfo.xcprivacy */; };
+		44BFBC57774075588AD78995 /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5823C1638576D5A93D7C0D91 /* ExpoModulesProvider.swift */; };
+		65E7C949887AC4B6455530E1 /* Pods_GunsAndBuns.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51246E2726DD5D8CF6497372 /* Pods_GunsAndBuns.framework */; };
+		96D6CCAF4C11438D8F594DD8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D057E4AD925040A4BA3C62AD /* GoogleService-Info.plist */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
-		C53D5D20D3216E010566551C /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE252B2A661421B2E8A8434 /* ExpoModulesProvider.swift */; };
 		F11748422D0307B40044C1D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11748412D0307B40044C1D9 /* AppDelegate.swift */; };
+		FC4A1E0A26CDDDD039EDBD3A /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 82E6BD2C1DB757C9DA8596AA /* PrivacyInfo.xcprivacy */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		13B07F961A680F5B00A75B9A /* GunsAndBuns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GunsAndBuns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = GunsAndBuns/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = GunsAndBuns/Info.plist; sourceTree = "<group>"; };
-		4641AD4314C143EE822F8C3E /* GoogleService-Info.plist */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "GunsAndBuns/GoogleService-Info.plist"; sourceTree = "<group>"; };
-		8EE252B2A661421B2E8A8434 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-GunsAndBuns/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
-		A13B2B9765C0FEDFD5FE2ACA /* Pods-GunsAndBuns.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GunsAndBuns.debug.xcconfig"; path = "Target Support Files/Pods-GunsAndBuns/Pods-GunsAndBuns.debug.xcconfig"; sourceTree = "<group>"; };
+		51246E2726DD5D8CF6497372 /* Pods_GunsAndBuns.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GunsAndBuns.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5823C1638576D5A93D7C0D91 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-GunsAndBuns/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
+		82E6BD2C1DB757C9DA8596AA /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = GunsAndBuns/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		924DD6251BC672199E8732D8 /* Pods-GunsAndBuns.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GunsAndBuns.release.xcconfig"; path = "Target Support Files/Pods-GunsAndBuns/Pods-GunsAndBuns.release.xcconfig"; sourceTree = "<group>"; };
+		946AEE7023A9C66ADE5CB2A5 /* Pods-GunsAndBuns.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GunsAndBuns.debug.xcconfig"; path = "Target Support Files/Pods-GunsAndBuns/Pods-GunsAndBuns.debug.xcconfig"; sourceTree = "<group>"; };
 		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = GunsAndBuns/SplashScreen.storyboard; sourceTree = "<group>"; };
-		BA39E786B8F645E22813DDDC /* Pods_GunsAndBuns.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GunsAndBuns.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
-		C2DCA0C33A864CAF1E09918A /* Pods-GunsAndBuns.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GunsAndBuns.release.xcconfig"; path = "Target Support Files/Pods-GunsAndBuns/Pods-GunsAndBuns.release.xcconfig"; sourceTree = "<group>"; };
+		D057E4AD925040A4BA3C62AD /* GoogleService-Info.plist */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "GunsAndBuns/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		F11748412D0307B40044C1D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = GunsAndBuns/AppDelegate.swift; sourceTree = "<group>"; };
 		F11748442D0722820044C1D9 /* GunsAndBuns-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "GunsAndBuns-Bridging-Header.h"; path = "GunsAndBuns/GunsAndBuns-Bridging-Header.h"; sourceTree = "<group>"; };
-		FFAF269185B9CB2E90D96FB9 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = GunsAndBuns/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,21 +39,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BB7FE5A42E819B02E696DAB /* Pods_GunsAndBuns.framework in Frameworks */,
+				65E7C949887AC4B6455530E1 /* Pods_GunsAndBuns.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		012499226C01E40E8FB20216 /* ExpoModulesProviders */ = {
-			isa = PBXGroup;
-			children = (
-				ADC4E085FB43D701DF4E7E68 /* GunsAndBuns */,
-			);
-			name = ExpoModulesProviders;
-			sourceTree = "<group>";
-		};
 		13B07FAE1A68108700A75B9A /* GunsAndBuns */ = {
 			isa = PBXGroup;
 			children = (
@@ -63,8 +55,8 @@
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */,
-				4641AD4314C143EE822F8C3E /* GoogleService-Info.plist */,
-				FFAF269185B9CB2E90D96FB9 /* PrivacyInfo.xcprivacy */,
+				D057E4AD925040A4BA3C62AD /* GoogleService-Info.plist */,
+				82E6BD2C1DB757C9DA8596AA /* PrivacyInfo.xcprivacy */,
 			);
 			name = GunsAndBuns;
 			sourceTree = "<group>";
@@ -73,16 +65,16 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				BA39E786B8F645E22813DDDC /* Pods_GunsAndBuns.framework */,
+				51246E2726DD5D8CF6497372 /* Pods_GunsAndBuns.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5724B538DB34E4B91649CD5E /* Pods */ = {
+		721B940CF3119BB9BD755CFD /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A13B2B9765C0FEDFD5FE2ACA /* Pods-GunsAndBuns.debug.xcconfig */,
-				C2DCA0C33A864CAF1E09918A /* Pods-GunsAndBuns.release.xcconfig */,
+				946AEE7023A9C66ADE5CB2A5 /* Pods-GunsAndBuns.debug.xcconfig */,
+				924DD6251BC672199E8732D8 /* Pods-GunsAndBuns.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -102,8 +94,8 @@
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				5724B538DB34E4B91649CD5E /* Pods */,
-				012499226C01E40E8FB20216 /* ExpoModulesProviders */,
+				721B940CF3119BB9BD755CFD /* Pods */,
+				BD7F98AF34E5554E8DB2C1F4 /* ExpoModulesProviders */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -118,10 +110,10 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		ADC4E085FB43D701DF4E7E68 /* GunsAndBuns */ = {
+		94E3EDA1936EAD645BDA307D /* GunsAndBuns */ = {
 			isa = PBXGroup;
 			children = (
-				8EE252B2A661421B2E8A8434 /* ExpoModulesProvider.swift */,
+				5823C1638576D5A93D7C0D91 /* ExpoModulesProvider.swift */,
 			);
 			name = GunsAndBuns;
 			sourceTree = "<group>";
@@ -135,6 +127,14 @@
 			path = GunsAndBuns/Supporting;
 			sourceTree = "<group>";
 		};
+		BD7F98AF34E5554E8DB2C1F4 /* ExpoModulesProviders */ = {
+			isa = PBXGroup;
+			children = (
+				94E3EDA1936EAD645BDA307D /* GunsAndBuns */,
+			);
+			name = ExpoModulesProviders;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,14 +143,14 @@
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "GunsAndBuns" */;
 			buildPhases = (
 				08A4A3CD28434E44B6B9DE2E /* [CP] Check Pods Manifest.lock */,
-				815473A4A3660600B8F4F145 /* [Expo] Configure project */,
+				4B86A2C118ABF922F224C2FC /* [Expo] Configure project */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */,
-				8294080136F234133B5A256F /* [CP] Embed Pods Frameworks */,
-				E142BFE9456D5C8F7B3A7F48 /* [CP-User] [RNFB] Core Configuration */,
+				991784095A121F46D2AFA363 /* [CP] Embed Pods Frameworks */,
+				E1A64017AC471F264AD70FE4 /* [CP-User] [RNFB] Core Configuration */,
 			);
 			buildRules = (
 			);
@@ -200,8 +200,8 @@
 				BB2F792D24A3F905000567C9 /* Expo.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
-				1F905EFEDB214840BAD73A40 /* GoogleService-Info.plist in Resources */,
-				4FB11610D65C7FADFEC00030 /* PrivacyInfo.xcprivacy in Resources */,
+				96D6CCAF4C11438D8F594DD8 /* GoogleService-Info.plist in Resources */,
+				FC4A1E0A26CDDDD039EDBD3A /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,6 +244,25 @@
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
+		};
+		4B86A2C118ABF922F224C2FC /* [Expo] Configure project */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[Expo] Configure project";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This script configures Expo modules and generates the modules provider file.\nbash -l -c \"./Pods/Target\\ Support\\ Files/Pods-GunsAndBuns/expo-configure-project.sh\"\n";
 		};
 		800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -331,26 +350,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GunsAndBuns/Pods-GunsAndBuns-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		815473A4A3660600B8F4F145 /* [Expo] Configure project */ = {
-			isa = PBXShellScriptBuildPhase;
-			alwaysOutOfDate = 1;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "[Expo] Configure project";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# This script configures Expo modules and generates the modules provider file.\nbash -l -c \"./Pods/Target\\ Support\\ Files/Pods-GunsAndBuns/expo-configure-project.sh\"\n";
-		};
-		8294080136F234133B5A256F /* [CP] Embed Pods Frameworks */ = {
+		991784095A121F46D2AFA363 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -368,7 +368,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GunsAndBuns/Pods-GunsAndBuns-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E142BFE9456D5C8F7B3A7F48 /* [CP-User] [RNFB] Core Configuration */ = {
+		E1A64017AC471F264AD70FE4 /* [CP-User] [RNFB] Core Configuration */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -389,7 +389,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F11748422D0307B40044C1D9 /* AppDelegate.swift in Sources */,
-				C53D5D20D3216E010566551C /* ExpoModulesProvider.swift in Sources */,
+				44BFBC57774075588AD78995 /* ExpoModulesProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,7 +398,7 @@
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A13B2B9765C0FEDFD5FE2ACA /* Pods-GunsAndBuns.debug.xcconfig */;
+			baseConfigurationReference = 946AEE7023A9C66ADE5CB2A5 /* Pods-GunsAndBuns.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -423,7 +423,7 @@
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = com.GunsAndBuns.exerciseApp;
-				PRODUCT_NAME = GunsAndBuns;
+				PRODUCT_NAME = "GunsAndBuns";
 				SWIFT_OBJC_BRIDGING_HEADER = "GunsAndBuns/GunsAndBuns-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -434,7 +434,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C2DCA0C33A864CAF1E09918A /* Pods-GunsAndBuns.release.xcconfig */;
+			baseConfigurationReference = 924DD6251BC672199E8732D8 /* Pods-GunsAndBuns.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -454,7 +454,7 @@
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_RELEASE";
 				PRODUCT_BUNDLE_IDENTIFIER = com.GunsAndBuns.exerciseApp;
-				PRODUCT_NAME = GunsAndBuns;
+				PRODUCT_NAME = "GunsAndBuns";
 				SWIFT_OBJC_BRIDGING_HEADER = "GunsAndBuns/GunsAndBuns-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
